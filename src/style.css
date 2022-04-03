@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(112, 18, 18);
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.container{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+button{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    background-color: aqua;
+    font-size: 40px;
+}
+button:hover{
+    background-color: darkblue;
+    border: 2px solid white;
+    color: darkgrey;
+}
+button:active{
+    background-color: blue;
+}
